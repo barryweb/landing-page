@@ -151,3 +151,32 @@ a,
 .text-img-container > p {
     text-align: center;
 }
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.95rem;
+}
+
+.quote-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 1 530px;
+}
+
+.quote-wrapper > p {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 700;
+    padding: 0;
+}
