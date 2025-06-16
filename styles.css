@@ -224,4 +224,7 @@ a,
     height: 2.5em;
 }
 
-
+footer {
+    text-align: center;
+    padding: 2rem;
+}
